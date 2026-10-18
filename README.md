@@ -25,7 +25,7 @@
 
 ## Repository contents
 ```
-fcc_summative.ipynb        main notebook (executed; all outputs included)
+IntroML_summative.ipynb        main notebook (executed; all outputs included)
 requirements.txt           dependencies
 requirements_frozen.txt    exact versions used for the reported run
 experiment_table.csv       every run: settings, metrics, one-line observation
