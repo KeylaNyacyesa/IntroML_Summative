@@ -36,7 +36,6 @@ figures/                   all figures used in the report
 experiment_logs.zip        TensorBoard logs (logs/summary/<run id>; Keras per-epoch logs in logs/<run id>)
 wandb_offline_runs.zip     Weights & Biases offline runs
 ```
-The raw dataset is **not** committed. It is in the Drive folder, and the notebook downloads it automatically from freeCodeCamp's repository if no local copy is found.
 
 ## How to reproduce
 **Google Colab:** open the notebook and run *Runtime → Run all*. The notebook mounts Drive and reads `MyDrive/fcc/2018-new-coder-survey.csv` if present; otherwise it downloads the file.
