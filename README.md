@@ -44,7 +44,7 @@ wandb_offline_runs.zip     Weights & Biases offline runs
 ```bash
 pip install -r requirements.txt
 pip install -r requirements_frozen.txt    # optional: the exact Colab versions
-jupyter nbconvert --to notebook --execute fcc_summative.ipynb      # about 15 min on a 2-core CPU
+jupyter nbconvert --to notebook --execute IntroML_summative.ipynb      # about 15 min on a 2-core CPU
 ```
 - Set `QUICK_TEST=1` for a 3-minute dry run.
 
